@@ -2,6 +2,51 @@
   text-decoration: underline;
 }
 
+.gras {
+  font-weight: bold;
+}
+
+.bleu {
+  color: #0D6CBF;
+}
+
+.center {
+  text-align: center;
+}
+
+.cadre1 {
+border-width: : 2px;
+border-color: #29B1CC;
+border-style: outset;
+border-radius: 10px;
+}
+
 .trebuchet {
-  font-family: "trebuchet MS";
+  font-family: 'trebuchet MS';
+}
+.longueur1 {
+  width: 35%;
+}
+.taille1 {
+  font-size: 45px;
+}
+.pseudo1:hover {
+  color:blue;
+}
+
+.taille2 {
+  font-size: 25px;
+}
+.marge {
+  margin: 10px;
+}
+.float {
+  float: right;
+  right: 40px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.degrade {
+
 }
