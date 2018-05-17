@@ -6,6 +6,7 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="afficher_cacher_div.js"></script>
 
 
         <title>Curriculum Vitae</title>
@@ -15,10 +16,13 @@
 
     <body>
       <p class="center taille1 marge souligne gras degrade"> Développeur Web</p>
-        <h2 class="center"> Coordonnées </h2>
+        <h2 class="center" type=> Coordonnées </h2>
+
       <img src="images/index.jpeg" alt="avatar" class="float" />
 
-      <div class="longueur1 cadre1 mask">
+
+<span class="bouton" id="bouton_texte" onclick="javascript:afficher_cacher('texte');">Coordonnées</span>
+      <div class="longueur1 cadre1 texte"  id="texte">
       <p class="souligne bleu trebuchet taille2 gras center">Clément POLITO</p>
 
       <ul style="list-style-type:square">
@@ -30,6 +34,7 @@
 <br />
       </ul>
     </div>
+
       <hr/>
 
       <h1 class= "souligne center taille1 pseudo1">Formations</h1>
@@ -49,5 +54,6 @@
 
 
     </body>
+
 
 </html>
